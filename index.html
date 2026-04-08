@@ -1,0 +1,1584 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Propuesta Pañoleta</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Open+Sans&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet">
+
+<style>
+body {
+  margin: 0;
+  overflow: hidden;
+  background: black;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* SLIDER */
+.slider {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+/* SLIDES */
+.slide {
+  position: absolute;
+  width: 1280px;
+  height: 720px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.9);
+  opacity: 0;
+  transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+  pointer-events: none;
+}
+
+.slide.active {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+  pointer-events: auto;
+}
+
+/* CONTENIDO BASE */
+.slide-content {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* NAV */
+.nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+  z-index: 1000;
+  padding: 15px;
+}
+
+.prev { left: 20px; }
+.next { right: 20px; }
+
+/* DOTS */
+.dots {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  margin: 6px;
+  background: #777;
+  display: inline-block;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot.active {
+  background: white;
+}
+</style>
+</head>
+
+<body>
+
+<div class="slider">
+
+  <!-- SLIDE 1 -->
+  <div class="slide active">
+    <div class="slide-content" style="background: linear-gradient(135deg,#663399,#4a2c6d); color:white; display:flex; flex-direction:column; justify-content:center; align-items:center;">
+      <h1 style="font-family:Montserrat;font-size:42px;">Propuesta de Pañoleta</h1>
+      <p>Identidad Scout - Asociación Scout de El Salvador</p>
+    </div>
+  </div>
+
+  <!-- SLIDE 2 -->
+  <div class="slide">
+    <div class="slide-content" style="background:#fff; display:flex; align-items:center; justify-content:center;">
+      <h2 style="font-family:Montserrat;">	<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Propuesta Pañoleta Oficial - Dirección de Comunicaciones</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&amp;family=Open+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.8; }
+        }
+        .animate-fadeInUp { animation: fadeInUp 0.8s ease-out forwards; }
+        .animate-float { animation: float 3s ease-in-out infinite; }
+        .animate-pulse-slow { animation: pulse 2s ease-in-out infinite; }
+        .hero-gradient {
+            background: linear-gradient(135deg, rgba(102, 51, 153, 0.95) 0%, rgba(147, 51, 234, 0.85) 50%, rgba(255, 215, 0, 0.1) 100%);
+        }
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .text-shadow { text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); }
+        .scout-pattern {
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+    </style>
+</head>
+<body style="margin: 0; padding: 0; overflow: hidden;">
+<div class="slide-container" style="position: relative; width: 1280px; height: 720px; overflow: hidden;">
+<div data-object="true" data-object-type="shape" style="position: absolute; left: 0; top: 0; width: 1280px; height: 720px; z-index: 1;">
+<div class="hero-gradient" style="width: 100%; height: 100%; position: relative;">
+<div class="scout-pattern" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0;"></div>
+<div style="position: absolute; top: 50px; right: 100px; width: 200px; height: 200px; border-radius: 50%; background: rgba(255, 215, 0, 0.1);"></div>
+<div style="position: absolute; bottom: 100px; left: 80px; width: 150px; height: 150px; border-radius: 50%; background: rgba(255, 255, 255, 0.05);"></div>
+</div>
+</div>
+<div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 10;">
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 60px; top: 40px; width: 1160px; height: 80px; display: flex; align-items: center; justify-content: space-between;">
+<div style="display: flex; align-items: center; gap: 15px;">
+<div style="width: 50px; height: 50px; background: linear-gradient(135deg, #FFD700, #FFA500); border-radius: 10px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
+	<svg viewBox="0 0 288 288" style="width: 40px; height: 40px;">
+          <g fill="#663399">
+            
+            <path d="M44.348,113.062c-1.036,-2.199 -2.141,-4.366 -3.246,-6.6c-1.219,2.468 -2.425,4.871 -3.589,7.296c-0.242,0.506 -0.654,0.549 -1.083,0.622c-0.088,0.016 -0.21,-0.025 -0.313,0.009c-0.61,0.193 -1.259,0.231 -1.876,0.321c-0.858,0.124 -1.737,0.205 -2.597,0.338c-0.943,0.147 -1.885,0.284 -2.836,0.371c0.012,0.235 0.215,0.328 0.354,0.463c1.797,1.756 3.596,3.512 5.406,5.258c0.23,0.221 0.35,0.423 0.288,0.761c-0.291,1.586 -0.563,3.175 -0.837,4.763c-0.187,1.087 -0.365,2.174 -0.559,3.342c2.435,-1.282 4.791,-2.509 7.13,-3.764c0.385,-0.206 0.67,-0.191 1.047,0.011c2.131,1.143 4.277,2.26 6.421,3.381c0.154,0.08 0.305,0.254 0.5,0.134c0.205,-0.128 0.1,-0.34 0.07,-0.504c-0.409,-2.421 -0.825,-4.839 -1.257,-7.257c-0.065,-0.359 -0.012,-0.605 0.264,-0.87c1.79,-1.715 3.561,-3.446 5.331,-5.178c0.163,-0.16 0.399,-0.273 0.433,-0.541c-2.434,-0.344 -4.86,-0.757 -7.302,-1.001c-0.977,-0.098 -1.375,-0.567 -1.748,-1.356"/>
+            
+            <path d="M250.72,113.062c-1.036,-2.199 -2.141,-4.366 -3.246,-6.6c-1.219,2.468 -2.425,4.871 -3.589,7.296c-0.242,0.506 -0.654,0.549 -1.083,0.622c-0.088,0.016 -0.21,-0.025 -0.313,0.009c-0.61,0.193 -1.259,0.231 -1.876,0.321c-0.858,0.124 -1.737,0.205 -2.597,0.338c-0.943,0.147 -1.885,0.284 -2.836,0.371c0.012,0.235 0.215,0.328 0.354,0.463c1.797,1.756 3.596,3.512 5.406,5.258c0.23,0.221 0.35,0.423 0.288,0.761c-0.291,1.586 -0.563,3.175 -0.837,4.763c-0.187,1.087 -0.365,2.174 -0.559,3.342c2.435,-1.282 4.791,-2.509 7.13,-3.764c0.385,-0.206 0.67,-0.191 1.047,0.011c2.131,1.143 4.277,2.26 6.421,3.381c0.154,0.08 0.305,0.254 0.5,0.134c0.205,-0.128 0.1,-0.34 0.07,-0.504c-0.409,-2.421 -0.825,-4.839 -1.257,-7.257c-0.065,-0.359 -0.012,-0.605 0.264,-0.87c1.79,-1.715 3.561,-3.446 5.331,-5.178c0.163,-0.16 0.399,-0.273 0.433,-0.541c-2.434,-0.344 -4.86,-0.757 -7.302,-1.001c-0.977,-0.098 -1.375,-0.567 -1.748,-1.356"/>
+            
+            <path d="M173.325,99.545c-4.009,17.846 -21.259,27.799 -29.353,31.562c-8.055,-3.712 -25.219,-13.565 -29.293,-31.474c-4.012,-17.636 6.12,-40.225 29.314,-65.41c23.152,25.143 33.291,47.704 29.332,65.322m-22.372,-86.494l-6.961,-6.961l-6.963,6.961c-33.645,33.646 -47.625,64.246 -41.552,90.949c7.618,33.495 43.715,46.534 45.248,47.071l3.267,1.15l3.265,-1.15c1.534,-0.537 37.63,-13.576 45.249,-47.071c6.072,-26.703 -7.908,-57.302 -41.553,-90.949"/>
+            
+            <path d="M123.849,214.251l1.189,-3.851l35.131,0l0.232,1.063c4.012,11.594 9.747,22.483 17.051,31.978l0.714,1.026l-35.571,19.112l-33.591,-18.704l0.702,-1.099c7.413,-9.636 10.988,-20.291 14.144,-29.526m-30.946,28.366l-6.591,8.576l57.265,30.717l57.27,-30.715l-6.596,-8.622c-10.971,-14.267 -16.538,-30.33 -19.275,-41.052l-1.72,-7.039l-59.359,0l-1.72,7.039c-2.745,10.752 -8.319,26.848 -19.277,41.096"/>
+            
+            <path d="M270,81.548l0,-18.801c-51.545,8.008 -91.711,53.052 -92.164,106.519l-67.6,0c-0.454,-53.836 -40.691,-98.531 -92.236,-106.532l0,18.782c41.236,7.79 73.282,44.222 73.725,87.749l-15.306,0l0,19.473l13.801,0c-1.872,10.309 -7.717,31.465 -25.294,43.999l13.287,13.17c9.178,-7.247 15.544,-15.92 19.89,-24.065c7.058,-13.227 9.812,-26.232 10.843,-33.104l69.481,0c1.032,6.872 3.787,19.822 10.843,33.047c4.345,8.144 10.712,16.876 19.889,24.122l13.287,-13.11c-17.577,-12.536 -23.421,-33.75 -25.293,-44.058l14.43,0l0,-19.473l-15.223,0c0.444,-43.139 32.405,-79.877 73.641,-87.719"/>
+          
+          </g>
+        </svg>
+</div>
+<div>
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 18px; font-weight: 700; color: white;">ASOCIACIÓN SCOUT</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 12px; color: rgba(255, 255, 255, 0.8);">DE EL SALVADOR</p>
+</div>
+</div>
+<div style="text-align: right;">
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 14px; color: white;">
+<i class="fas fa-calendar-alt" style="margin-right: 8px; color: #FFD700;"></i>
+                        11-12 de abril 2026
+                    </p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 12px; color: rgba(255, 255, 255, 0.8);">Campamento Técnico</p>
+</div>
+</div>
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 60px; top: 140px; width: 1160px; height: 120px; text-align: center;">
+<div style="background: rgba(255, 255, 255, 0.1); border-radius: 20px; padding: 28px 30px 24px 30px; border: 2px solid rgba(255, 215, 0, 0.3); box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);">
+<h1 style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 44px; font-weight: 800; color: white; text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4); letter-spacing: -1px; line-height: 1.05;">
+<span style="color: #FFD700;">PROPUESTA</span> PAÑOLETA <span style="color: #FFD700;">OFICIAL</span>
+</h1>
+<p style="margin: 10px 0 0 0; font-family: 'Open Sans', sans-serif; font-size: 17px; color: rgba(255, 255, 255, 0.9); line-height: 1.2;">
+<i class="fas fa-broadcast-tower" style="margin-right: 10px; color: #FFD700;"></i>
+                        Dirección de Comunicaciones - Kit Institucional
+                    </p>
+</div>
+</div>
+<div style="position: absolute; left: 60px; top: 300px; width: 1160px; height: 350px; display: flex; gap: 40px;">
+<div data-object="true" data-object-type="textbox" style="width: 55%; height: 100%;">
+<div style="background: rgba(255, 255, 255, 0.95); border-radius: 15px; padding: 25px; height: 100%; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); border-left: 5px solid #663399; box-sizing: border-box;">
+<div style="display: flex; align-items: center; gap: 15px; margin-bottom: 18px;">
+<div style="width: 40px; height: 40px; background: linear-gradient(135deg, #663399, #8B5CF6); border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+<i class="fas fa-bullseye" style="color: white; font-size: 18px;"></i>
+</div>
+<div>
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 16px; font-weight: 700; color: #333;">OBJETIVO PRINCIPAL</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 12px; color: #666;">Identidad, visibilidad y operatividad</p>
+</div>
+</div>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 13px; color: #444; line-height: 1.45;">
+                            Establecer una <strong style="color: #663399;">pañoleta oficial</strong> para la Dirección de Comunicaciones como parte del Kit Institucional, que responda a las necesidades actuales de operación y representación, mediante un diseño que equilibre <strong style="color: #663399;">visibilidad</strong>, <strong style="color: #663399;">identidad institucional</strong> y <strong style="color: #663399;">funcionalidad operativa</strong>.
+                        </p>
+<div style="margin-top: 16px; display: flex; gap: 10px;">
+<div style="flex: 1; background: rgba(102, 51, 153, 0.1); border-radius: 8px; padding: 10px; text-align: center;">
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 12px; font-weight: 600; color: #663399;">Identidad</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 10px; color: #666;">Institucional</p>
+</div>
+<div style="flex: 1; background: rgba(255, 215, 0, 0.1); border-radius: 8px; padding: 10px; text-align: center;">
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 12px; font-weight: 600; color: #B8860B;">Visibilidad</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 10px; color: #666;">En campo</p>
+</div>
+<div style="flex: 1; background: rgba(34, 197, 94, 0.1); border-radius: 8px; padding: 10px; text-align: center;">
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 12px; font-weight: 600; color: #059669;">Operatividad</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 10px; color: #666;">Funcional</p>
+</div>
+</div>
+</div>
+</div>
+<div data-object="true" data-object-type="textbox" style="width: 45%; height: 100%;">
+<div style="background: rgba(255, 255, 255, 0.95); border-radius: 15px; padding: 25px; height: 100%; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); border-right: 5px solid #FFD700; box-sizing: border-box;">
+<div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+<div style="width: 40px; height: 40px; background: linear-gradient(135deg, #FFD700, #FFA500); border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+<i class="fas fa-palette" style="color: white; font-size: 18px;"></i>
+</div>
+<div>
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 16px; font-weight: 700; color: #333;">DISEÑO PROPUESTO</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 12px; color: #666;">Línea A y Línea B</p>
+</div>
+</div>
+<div style="display: flex; gap: 15px; margin-bottom: 15px;">
+<div style="flex: 1; background: linear-gradient(135deg, #663399, #8B5CF6); border-radius: 10px; padding: 15px; text-align: center;">
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 12px; font-weight: 600; color: white;">Línea A</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 10px; color: rgba(255, 255, 255, 0.8);">Institucional</p>
+</div>
+<div style="flex: 1; background: linear-gradient(135deg, #E91E63, #FF69B4); border-radius: 10px; padding: 15px; text-align: center;">
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 12px; font-weight: 600; color: white;">Línea B</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 10px; color: rgba(255, 255, 255, 0.8);">Nacional</p>
+</div>
+</div>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 12px; color: #666; text-align: center;">
+<i class="fas fa-check-circle" style="color: #10B981; margin-right: 5px;"></i>
+                            Dos opciones de diseño disponibles
+                        </p>
+</div>
+</div>
+</div>
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 60px; top: 660px; width: 1160px; height: 50px;">
+<div style="background: rgba(255, 255, 255, 0.1); border-radius: 10px; padding: 12px 24px; display: flex; align-items: center; justify-content: space-between; box-sizing: border-box;">
+<div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
+<div style="display: flex; align-items: center; gap: 8px;">
+<div style="width: 12px; height: 12px; background: #663399; border-radius: 50%;"></div>
+<span style="font-family: 'Open Sans', sans-serif; font-size: 12px; color: white;">Morado: Identidad Scout</span>
+</div>
+<div style="display: flex; align-items: center; gap: 8px;">
+<div style="width: 12px; height: 12px; background: #FFD700; border-radius: 50%;"></div>
+<span style="font-family: 'Open Sans', sans-serif; font-size: 12px; color: white;">Dorado: Calidad</span>
+</div>
+<div style="display: flex; align-items: center; gap: 8px;">
+<div style="width: 12px; height: 12px; background: #E91E63; border-radius: 50%;"></div>
+<span style="font-family: 'Open Sans', sans-serif; font-size: 12px; color: white;">Rosa: Maquilishuat</span>
+</div>
+</div>
+<div style="display: flex; align-items: center; gap: 10px; white-space: nowrap;">
+<span style="font-family: 'Montserrat', sans-serif; font-size: 12px; color: white; font-weight: 600;">
+<i class="fas fa-users" style="margin-right: 5px;"></i>
+                            11-12 Abril 2026
+                        </span>
+	</h2>
+    </div>
+  </div>
+
+  <!-- SLIDE 3 (LÍNEA A / B) -->
+  <div class="slide">
+    <div class="slide-content" style="background:#f4f4f4">
+	<title>El Desafío - Identificación del Equipo</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&amp;family=Open+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(-30px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        .animate-fadeInUp { animation: fadeInUp 0.6s ease-out forwards; }
+        .animate-slideIn { animation: slideIn 0.5s ease-out forwards; }
+        .animate-pulse-slow { animation: pulse 2s ease-in-out infinite; }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+        }
+        .problem-card {
+            transition: all 0.3s ease;
+        }
+        .problem-card:hover {
+            border-color: #663399;
+            transform: translateY(-2px);
+        }
+        .icon-bounce {
+            animation: bounce 1s infinite;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+        }
+    </style>
+</head>
+<body style="margin: 0; padding: 0; overflow: hidden;">
+<div class="slide-container" style="position: relative; width: 1280px; height: 720px; overflow: hidden;">
+<div data-object="true" data-object-type="shape" style="position: absolute; left: 0; top: 0; width: 1280px; height: 720px; z-index: 1;">
+<div style="width: 100%; height: 100%; background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); position: relative;">
+<div style="position: absolute; top: 0; right: 0; width: 300px; height: 300px; background: rgba(102, 51, 153, 0.05); border-radius: 50%;"></div>
+<div style="position: absolute; bottom: 0; left: 0; width: 200px; height: 200px; background: rgba(255, 215, 0, 0.05); border-radius: 50%;"></div>
+</div>
+</div>
+<div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 10;">
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 40px; top: 20px; width: 1200px; height: 60px; display: flex; align-items: center; justify-content: space-between;">
+<div style="display: flex; align-items: center; gap: 15px;">
+<div style="width: 40px; height: 40px; background: linear-gradient(135deg, #663399, #8B5CF6); border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+<i class="fas fa-exclamation-triangle" style="font-size: 18px; color: white;"></i>
+</div>
+<div>
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 20px; font-weight: 700; color: #1a1a2e;">EL DESAFÍO ACTUAL</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 12px; color: #666;">Identificación del equipo de comunicaciones</p>
+</div>
+</div>
+<div style="text-align: right;">
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 14px; color: #333;">
+<span style="background: #FFD700; padding: 4px 12px; border-radius: 20px; font-weight: 600;">
+<i class="fas fa-calendar-alt" style="margin-right: 5px;"></i>
+                        11-12 Abril 2026
+                    </span>
+</p>
+</div>
+</div>
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 40px; top: 90px; width: 1200px; height: 82px;">
+<div style="background: rgba(255, 255, 255, 0.9); border-radius: 15px; padding: 18px 25px; border-left: 5px solid #663399; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); box-sizing: border-box;">
+<div style="display: flex; align-items: center; gap: 15px;">
+<div style="flex: 1;">
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 14px; color: #444; line-height: 1.45;">
+<span style="color: #663399; font-weight: 600;">Problema actual:</span> La Dirección de Comunicaciones <strong style="color: #663399;">no cuenta con un elemento distintivo</strong> que permita la identificación clara de sus miembros durante el desarrollo de actividades scouts, dificultando la coordinación operativa.
+                    </p>
+</div>
+</div>
+</div>
+</div>
+<div style="position: absolute; left: 40px; top: 190px; width: 1200px; height: 450px; display: flex; gap: 20px;">
+<div data-object="true" data-object-type="textbox" style="width: 65%; height: 100%;">
+<div style="background: rgba(255, 255, 255, 0.95); border-radius: 15px; padding: 20px; height: 100%; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); box-sizing: border-box;">
+<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 15px;">
+<div style="width: 35px; height: 35px; background: linear-gradient(135deg, #663399, #8B5CF6); border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+<i class="fas fa-search" style="color: white; font-size: 16px;"></i>
+</div>
+<div>
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 16px; font-weight: 700; color: #333;">HALLAZGOS CLAVE</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 11px; color: #666;">5 problemas identificados en campo</p>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px;">
+<div class="problem-card" style="background: rgba(255, 255, 255, 0.9); border: 2px solid rgba(102, 51, 153, 0.2); border-radius: 12px; padding: 12px; display: flex; align-items: center; gap: 12px;">
+<div style="width: 40px; height: 40px; background: rgba(255, 0, 0, 0.1); border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+<i class="fas fa-eye-slash" style="font-size: 18px; color: #ef4444;"></i>
+</div>
+<div style="flex: 1;">
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 600; color: #333;">Baja visibilidad</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 11px; color: #666;">En campo a media/larga distancia</p>
+</div>
+</div>
+<div class="problem-card" style="background: rgba(255, 255, 255, 0.9); border: 2px solid rgba(102, 51, 153, 0.2); border-radius: 12px; padding: 12px; display: flex; align-items: center; gap: 12px;">
+<div style="width: 40px; height: 40px; background: rgba(255, 165, 0, 0.1); border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+<i class="fas fa-map-marker-alt" style="font-size: 18px; color: #f97316;"></i>
+</div>
+<div style="flex: 1;">
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 600; color: #333;">Dificultad para ubicar</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 11px; color: #666;">Personal de comunicaciones</p>
+</div>
+</div>
+<div class="problem-card" style="background: rgba(255, 255, 255, 0.9); border: 2px solid rgba(102, 51, 153, 0.2); border-radius: 12px; padding: 12px; display: flex; align-items: center; gap: 12px;">
+<div style="width: 40px; height: 40px; background: rgba(59, 130, 246, 0.1); border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+<i class="fas fa-users" style="font-size: 18px; color: #3b82f6;"></i>
+</div>
+<div style="flex: 1;">
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 600; color: #333;">Limitada diferenciación</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 11px; color: #666;">Frente a otros participantes</p>
+</div>
+</div>
+<div class="problem-card" style="background: rgba(255, 255, 255, 0.9); border: 2px solid rgba(102, 51, 153, 0.2); border-radius: 12px; padding: 12px; display: flex; align-items: center; gap: 12px;">
+<div style="width: 40px; height: 40px; background: rgba(168, 85, 247, 0.1); border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+<i class="fas fa-building" style="font-size: 18px; color: #a855f7;"></i>
+</div>
+<div style="flex: 1;">
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 600; color: #333;">Falta de presencia</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 11px; color: #666;">Institucional en entorno</p>
+</div>
+</div>
+</div>
+<div class="problem-card" style="background: rgba(255, 255, 255, 0.9); border: 2px solid rgba(102, 51, 153, 0.2); border-radius: 12px; padding: 12px; margin-top: 15px; display: flex; align-items: center; gap: 12px;">
+<div style="width: 40px; height: 40px; background: rgba(34, 197, 94, 0.1); border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+<i class="fas fa-chart-line" style="font-size: 18px; color: #22c55e;"></i>
+</div>
+<div style="flex: 1;">
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 600; color: #333;">Desaprovechamiento</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 11px; color: #666;">De identidad visual</p>
+</div>
+</div>
+</div>
+</div>
+<div data-object="true" data-object-type="textbox" style="width: 35%; height: 100%;">
+<div style="background: rgba(255, 255, 255, 0.95); border-radius: 15px; padding: 20px; height: 100%; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); box-sizing: border-box;">
+<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 15px;">
+<div style="width: 35px; height: 35px; background: linear-gradient(135deg, #FFD700, #FFA500); border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+<i class="fas fa-lightbulb" style="color: white; font-size: 16px;"></i>
+</div>
+<div>
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 14px; font-weight: 700; color: #333;">IMPACTO</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 11px; color: #666;">Consecuencias operativas</p>
+</div>
+</div>
+<div style="background: rgba(255, 0, 0, 0.05); border-radius: 10px; padding: 15px; margin-bottom: 15px;">
+<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+<i class="fas fa-exclamation-circle" style="color: #ef4444; font-size: 16px;"></i>
+<span style="font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 600; color: #333;">Impacto crítico</span>
+</div>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 12px; color: #666; line-height: 1.4;">
+                        La falta de identificación clara dificulta la coordinación operativa durante eventos.
+                    </p>
+</div>
+<div style="background: rgba(34, 197, 94, 0.05); border-radius: 10px; padding: 15px;">
+<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+<i class="fas fa-check-circle" style="color: #22c55e; font-size: 16px;"></i>
+<span style="font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 600; color: #333;">Solución propuesta</span>
+</div>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 12px; color: #666; line-height: 1.4;">
+                        Implementar pañoleta oficial con diseño distintivo.
+                    </p>
+</div>
+</div>
+</div>
+</div>
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 40px; top: 650px; width: 1200px; height: 50px;">
+<div style="background: rgba(102, 51, 153, 0.1); border-radius: 10px; padding: 12px 24px; display: flex; align-items: center; justify-content: space-between; box-sizing: border-box;">
+<div style="display: flex; align-items: center; gap: 20px;">
+<span style="font-family: 'Open Sans', sans-serif; font-size: 13px; color: #333;">
+<i class="fas fa-info-circle" style="margin-right: 8px; color: #663399;"></i>
+                    5 problemas identificados que requieren solución inmediata
+                </span>
+</div>
+<div style="display: flex; align-items: center; gap: 10px;">
+<span style="font-family: 'Montserrat', sans-serif; font-size: 12px; color: #333; font-weight: 600;">
+<i class="fas fa-arrow-right" style="margin-right: 5px; color: #663399;"></i>
+                    Ver propuesta de diseño
+                </span>
+</div>
+     
+
+        
+        </div>
+      </div>
+
+     
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SLIDE 4 -->
+  <div class="slide">
+<div class="slide-container" style="position: relative; width: 1280px; height: 720px; overflow: hidden;">
+
+<title>La Solución - Diseño y Líneas Propuestas</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&amp;family=Open+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(-30px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-5px); }
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.8; }
+        }
+        .animate-fadeInUp { animation: fadeInUp 0.6s ease-out forwards; }
+        .animate-slideIn { animation: slideIn 0.5s ease-out forwards; }
+        .animate-float { animation: float 3s ease-in-out infinite; }
+        .animate-pulse-slow { animation: pulse 2s ease-in-out infinite; }
+        .card-hover:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+        }
+        .design-card {
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        .design-card:hover {
+            border-color: #663399;
+            transform: translateY(-2px);
+        }
+        .color-dot {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 8px;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+        }
+        .purple-gradient {
+            background: linear-gradient(135deg, #663399 0%, #8B5CF6 100%);
+        }
+        .pink-gradient {
+            background: linear-gradient(135deg, #E91E63 0%, #FF69B4 100%);
+        }
+    </style>
+</head>
+<body style="margin: 0; padding: 0; overflow: hidden;">
+<div class="slide-container" style="position: relative; width: 1280px; height: 720px; overflow: hidden;">
+<div data-object="true" data-object-type="shape" style="position: absolute; left: 0; top: 0; width: 1280px; height: 720px; z-index: 1;">
+<div style="width: 100%; height: 100%; background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); position: relative;">
+<div style="position: absolute; top: 0; right: 0; width: 300px; height: 300px; background: rgba(102, 51, 153, 0.05); border-radius: 50%;"></div>
+<div style="position: absolute; bottom: 0; left: 0; width: 200px; height: 200px; background: rgba(255, 215, 0, 0.05); border-radius: 50%;"></div>
+</div>
+</div>
+<div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 10;">
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 40px; top: 20px; width: 1200px; height: 60px; display: flex; align-items: center; justify-content: space-between;">
+<div style="display: flex; align-items: center; gap: 15px;">
+<div style="width: 40px; height: 40px; background: linear-gradient(135deg, #663399, #8B5CF6); border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+<i class="fas fa-palette" style="font-size: 18px; color: white;"></i>
+</div>
+<div>
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 20px; font-weight: 700; color: #1a1a2e;">LA SOLUCIÓN</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 12px; color: #666;">Diseño y líneas propuestas para la pañoleta</p>
+</div>
+</div>
+<div style="text-align: right;">
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 14px; color: #333;">
+<span style="background: #FFD700; padding: 4px 12px; border-radius: 20px; font-weight: 600;">
+<i class="fas fa-calendar-alt" style="margin-right: 5px;"></i>
+                        11-12 Abril 2026
+                    </span>
+</p>
+</div>
+</div>
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 40px; top: 90px; width: 1200px; height: 72px;">
+<div style="background: rgba(255, 255, 255, 0.9); border-radius: 15px; padding: 15px 25px; border-left: 5px solid #663399; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 14px; color: #444; line-height: 1.4;">
+<span style="color: #663399; font-weight: 600;">Concepto:</span> Equilibrio entre <strong style="color: #663399;">identidad institucional</strong> (morado scout) e <strong style="color: #663399;">identidad nacional</strong> (maquilishuat), con dos líneas de diseño que responden a distintos enfoques dentro de una misma base conceptual.
+                </p>
+</div>
+</div>
+<div style="position: absolute; left: 40px; top: 170px; width: 1200px; height: 480px; display: flex; gap: 30px;">
+<!-- Línea A -->
+<div data-object="true" data-object-type="textbox" style="width: 48%; height: 100%;">
+<div style="background: rgba(255, 255, 255, 0.95); border-radius: 15px; padding: 20px; height: 100%; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); border: 2px solid #663399;">
+<div style="display: flex; align-items: center; gap: 12px; margin-bottom: 15px;">
+<div style="width: 35px; height: 35px; background: linear-gradient(135deg, #663399, #8B5CF6); border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+<i class="fas fa-university" style="color: white; font-size: 16px;"></i>
+</div>
+<div>
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 16px; font-weight: 700; color: #333;">LÍNEA A</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 11px; color: #666;">Identidad Institucional</p>
+</div>
+</div>
+<div style="background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%); border-radius: 12px; padding: 15px; margin-bottom: 15px;">
+<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+<div style="width: 60px; height: 60px; background: linear-gradient(135deg, #663399, #8B5CF6); border-radius: 10px; display: flex; align-items: center; justify-content: center; border: 3px solid #FFD700;">
+<i class="fas fa-ribbon" style="color: white; font-size: 24px;"></i>
+</div>
+<div>
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 600; color: #333;">Morado Predominante</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 11px; color: #666;">Alto contraste</p>
+</div>
+</div>
+<div style="display: flex; gap: 8px; margin-top: 10px;">
+<div style="flex: 1; background: rgba(102, 51, 153, 0.1); border-radius: 8px; padding: 8px; text-align: center;">
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 11px; font-weight: 600; color: #663399;">Sobriedad</p>
+</div>
+<div style="flex: 1; background: rgba(255, 215, 0, 0.1); border-radius: 8px; padding: 8px; text-align: center;">
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 11px; font-weight: 600; color: #B8860B;">Elegancia</p>
+</div>
+</div>
+<div style="
+  margin-top: 12px;
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  text-align: center;
+">
+  <img src="/lineaA.png" style="
+    width: 100%;
+    height: 140px;
+    object-fit: contain;
+    border-radius: 8px;
+  ">
+</div>
+</div>
+<div style="background: rgba(102, 51, 153, 0.05); border-radius: 10px; padding: 12px;">
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 12px; color: #444; line-height: 1.4;">
+<i class="fas fa-check-circle" style="color: #663399; margin-right: 5px;"></i>
+                            Diseño que prioriza la <strong>claridad visual</strong> y <strong>sobriedad</strong>, permitiendo identificación efectiva en campo.
+                        </p>
+</div>
+</div>
+</div>
+<!-- Línea B -->
+<div data-object="true" data-object-type="textbox" style="width: 48%; height: 100%;">
+<div style="background: rgba(255, 255, 255, 0.95); border-radius: 15px; padding: 20px; height: 100%; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); border: 2px solid #E91E63;">
+<div style="display: flex; align-items: center; gap: 12px; margin-bottom: 15px;">
+<div style="width: 35px; height: 35px; background: linear-gradient(135deg, #E91E63, #FF69B4); border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+<i class="fas fa-flag" style="color: white; font-size: 16px;"></i>
+</div>
+<div>
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 16px; font-weight: 700; color: #333;">LÍNEA B</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 11px; color: #666;">Identidad Nacional Integrada</p>
+</div>
+</div>
+<div style="background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%); border-radius: 12px; padding: 15px; margin-bottom: 15px;">
+<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+<div style="width: 60px; height: 60px; background: linear-gradient(135deg, #663399 0%, #E91E63 50%, #FF69B4 100%); border-radius: 10px; display: flex; align-items: center; justify-content: center; border: 3px solid #FFD700;">
+<i class="fas fa-ribbon" style="color: white; font-size: 24px;"></i>
+</div>
+<div>
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 600; color: #333;">Transición Morado-Rosado</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 11px; color: #666;">Maquilishuat</p>
+</div>
+</div>
+<div style="display: flex; gap: 8px; margin-top: 10px;">
+<div style="flex: 1; background: rgba(233, 30, 99, 0.1); border-radius: 8px; padding: 8px; text-align: center;">
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 11px; font-weight: 600; color: #E91E63;">Dinamismo</p>
+</div>
+<div style="flex: 1; background: rgba(255, 215, 0, 0.1); border-radius: 8px; padding: 8px; text-align: center;">
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 11px; font-weight: 600; color: #B8860B;">Cultural</p>
+</div>
+</div>
+<div style="
+  margin-top: 12px;
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  text-align: center;
+">
+  <img src="/lineaB.png" style="
+    width: 100%;
+    height: 140px;
+    object-fit: contain;
+    border-radius: 8px;
+  ">
+</div>
+</div>
+<div style="background: rgba(233, 30, 99, 0.05); border-radius: 10px; padding: 12px;">
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 12px; color: #444; line-height: 1.4;">
+<i class="fas fa-check-circle" style="color: #E91E63; margin-right: 5px;"></i>
+                            Composición <strong>más dinámica</strong> que integra <strong>identidad cultural</strong> salvadoreña.
+                        </p>
+</div>
+</div>
+</div>
+</div>
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 40px; top: 660px; width: 1200px; height: 50px;">
+<div style="background: rgba(102, 51, 153, 0.1); border-radius: 10px; padding: 12px 24px; display: flex; align-items: center; justify-content: space-between;">
+<div style="display: flex; align-items: center; gap: 20px;">
+<span style="font-family: 'Open Sans', sans-serif; font-size: 13px; color: #333;">
+<i class="fas fa-info-circle" style="margin-right: 8px; color: #663399;"></i>
+                        Ambas propuestas cumplen con criterios de visibilidad, identidad institucional y funcionalidad operativa
+                    </span>
+</div>
+<div style="display: flex; align-items: center; gap: 10px;">
+<span style="font-family: 'Montserrat', sans-serif; font-size: 12px; color: #333; font-weight: 600;">
+<i class="fas fa-arrow-right" style="margin-right: 5px; color: #663399;"></i>
+                        Ver especificaciones técnicas
+                    </span>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+  <!-- SLIDE 5 -->
+  <div class="slide">
+    <div class="slide-content" style="background:#fafafa; display:flex; justify-content:center; align-items:center;">
+      <h2 style="font-family:Montserrat;"><title>Simbología y Detalles Técnicos</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&amp;family=Open+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(-30px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.8; }
+        }
+        .animate-fadeInUp { animation: fadeInUp 0.6s ease-out forwards; }
+        .animate-slideIn { animation: slideIn 0.5s ease-out forwards; }
+        .animate-pulse-slow { animation: pulse 2s ease-in-out infinite; }
+        .card-hover:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+        }
+        .tech-card {
+            transition: all 0.3s ease;
+            border: 1px solid rgba(102, 51, 153, 0.2);
+        }
+        .tech-card:hover {
+            border-color: #663399;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 16px rgba(102, 51, 153, 0.1);
+        }
+        .color-dot {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 8px;
+        }
+        .icon-box {
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body style="margin: 0; padding: 0; overflow: hidden;">
+<div class="slide-container" style="position: relative; width: 1280px; height: 720px; overflow: hidden;">
+<div data-object="true" data-object-type="shape" style="position: absolute; left: 0; top: 0; width: 1280px; height: 720px; z-index: 1;">
+<div style="width: 100%; height: 100%; background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); position: relative;">
+<div style="position: absolute; top: 0; right: 0; width: 300px; height: 300px; background: rgba(102, 51, 153, 0.05); border-radius: 50%;"></div>
+<div style="position: absolute; bottom: 0; left: 0; width: 200px; height: 200px; background: rgba(255, 215, 0, 0.05); border-radius: 50%;"></div>
+</div>
+</div>
+<div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 10;">
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 40px; top: 20px; width: 1200px; height: 60px; display: flex; align-items: center; justify-content: space-between;">
+<div style="display: flex; align-items: center; gap: 15px;">
+<div style="width: 40px; height: 40px; background: linear-gradient(135deg, #663399, #8B5CF6); border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+<i class="fas fa-palette" style="font-size: 18px; color: white;"></i>
+</div>
+<div>
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 20px; font-weight: 700; color: #1a1a2e;">SIMBOLOGÍA Y DETALLES TÉCNICOS</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 12px; color: #666;">Significado de colores y especificaciones técnicas</p>
+</div>
+</div>
+<div style="text-align: right;">
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 14px; color: #333;">
+<span style="background: #FFD700; padding: 4px 12px; border-radius: 20px; font-weight: 600;">
+<i class="fas fa-calendar-alt" style="margin-right: 5px;"></i>
+                        11-12 Abril 2026
+                    </span>
+</p>
+</div>
+</div>
+<div style="position: absolute; left: 40px; top: 90px; width: 1200px; height: 600px; display: flex; gap: 25px;">
+<div data-object="true" data-object-type="textbox" style="width: 45%; height: 100%;">
+<div style="background: rgba(255, 255, 255, 0.95); border-radius: 15px; padding: 20px; height: 100%; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); border: 2px solid #663399;">
+<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 15px;">
+<div style="width: 35px; height: 35px; background: linear-gradient(135deg, #663399, #8B5CF6); border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+<i class="fas fa-paint-brush" style="color: white; font-size: 16px;"></i>
+</div>
+<div>
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 16px; font-weight: 700; color: #333;">SIMBOLOGÍA</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 11px; color: #666;">Significado de los colores</p>
+</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 12px;">
+<div class="tech-card" style="background: rgba(102, 51, 153, 0.1); border-radius: 12px; padding: 12px; display: flex; align-items: center; gap: 12px;">
+<div style="width: 40px; height: 40px; background: linear-gradient(135deg, #663399, #8B5CF6); border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+<i class="fas fa-crown" style="color: white; font-size: 18px;"></i>
+</div>
+<div style="flex: 1;">
+<div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
+<span style="font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 600; color: #333;">Morado</span>
+<span style="font-family: 'Open Sans', sans-serif; font-size: 11px; color: #666;">(Base institucional)</span>
+</div>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 11px; color: #444; line-height: 1.3;">
+                                Liderazgo, servicio y compromiso. Representa la identidad del movimiento scout.
+                            </p>
+</div>
+</div>
+<div class="tech-card" style="background: rgba(233, 30, 99, 0.1); border-radius: 12px; padding: 12px; display: flex; align-items: center; gap: 12px;">
+<div style="width: 40px; height: 40px; background: linear-gradient(135deg, #E91E63, #FF69B4); border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+<i class="fas fa-flag" style="color: white; font-size: 18px;"></i>
+</div>
+<div style="flex: 1;">
+<div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
+<span style="font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 600; color: #333;">Rosado</span>
+<span style="font-family: 'Open Sans', sans-serif; font-size: 11px; color: #666;">(Maquilishuat)</span>
+</div>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 11px; color: #444; line-height: 1.3;">
+                                Identidad nacional, pertenencia y conexión con el entorno cultural.
+                            </p>
+</div>
+</div>
+<div class="tech-card" style="background: rgba(255, 215, 0, 0.1); border-radius: 12px; padding: 12px; display: flex; align-items: center; gap: 12px;">
+<div style="width: 40px; height: 40px; background: linear-gradient(135deg, #FFD700, #FFA500); border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+<i class="fas fa-gem" style="color: white; font-size: 18px;"></i>
+</div>
+<div style="flex: 1;">
+<div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
+<span style="font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 600; color: #333;">Dorado</span>
+<span style="font-family: 'Open Sans', sans-serif; font-size: 11px; color: #666;">(Cedro blanco)</span>
+</div>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 11px; color: #444; line-height: 1.3;">
+                                Valor, calidad y presencia. Elemento natural de enmarcado visual.
+                            </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div data-object="true" data-object-type="textbox" style="width: 55%; height: 100%;">
+<div style="background: rgba(255, 255, 255, 0.95); border-radius: 15px; padding: 20px; height: 100%; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); border: 2px solid #FFD700;">
+<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 15px;">
+<div style="width: 35px; height: 35px; background: linear-gradient(135deg, #FFD700, #FFA500); border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+<i class="fas fa-cogs" style="color: white; font-size: 16px;"></i>
+</div>
+<div>
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 16px; font-weight: 700; color: #333;">ESPECIFICACIONES TÉCNICAS</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 11px; color: #666;">Material, dimensiones y técnica</p>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px;">
+<div class="tech-card" style="background: rgba(255, 255, 255, 0.9); border-radius: 10px; padding: 12px; border: 1px solid rgba(102, 51, 153, 0.2);">
+<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
+<i class="fas fa-fabric" style="color: #663399; font-size: 16px;"></i>
+<div>
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 12px; font-weight: 600; color: #333;">Material</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 10px; color: #666;">Tela Decker</p>
+</div>
+</div>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 11px; color: #444; line-height: 1.3;">
+                            Poliéster ligero, transpirable y resistente para actividades al aire libre.
+                        </p>
+</div>
+<div class="tech-card" style="background: rgba(255, 255, 255, 0.9); border-radius: 10px; padding: 12px; border: 1px solid rgba(102, 51, 153, 0.2);">
+<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
+<i class="fas fa-ruler" style="color: #663399; font-size: 16px;"></i>
+<div>
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 12px; font-weight: 600; color: #333;">Dimensiones</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 10px; color: #666;">140cm x 65cm</p>
+</div>
+</div>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 11px; color: #444; line-height: 1.3;">
+                            Proporción adecuada para uso funcional y estético.
+                        </p>
+</div>
+<div class="tech-card" style="background: rgba(255, 255, 255, 0.9); border-radius: 10px; padding: 12px; border: 1px solid rgba(102, 51, 153, 0.2);">
+<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
+<i class="fas fa-print" style="color: #663399; font-size: 16px;"></i>
+<div>
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 12px; font-weight: 600; color: #333;">Técnica</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 10px; color: #666;">Sublimación textil</p>
+</div>
+</div>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 11px; color: #444; line-height: 1.3;">
+                            Alta definición, durabilidad frente al desgaste.
+                        </p>
+</div>
+<div class="tech-card" style="background: rgba(255, 255, 255, 0.9); border-radius: 10px; padding: 12px; border: 1px solid rgba(102, 51, 153, 0.2);">
+<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
+<i class="fas fa-leaf" style="color: #663399; font-size: 16px;"></i>
+<div>
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 12px; font-weight: 600; color: #333;">Distintivo</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 10px; color: #666;">Flor de lis</p>
+</div>
+</div>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 11px; color: #444; line-height: 1.3;">
+                            Bordado de alta calidad, buena definición.
+                        </p>
+</div>
+</div>
+<div style="margin-top: 10px; background: rgba(102, 51, 153, 0.05); border-radius: 8px; padding: 10px;">
+<div style="display: flex; align-items: center; gap: 8px;">
+<i class="fas fa-info-circle" style="color: #663399; font-size: 14px;"></i>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 11px; color: #444;">
+                            Tipografía blanca para máxima legibilidad y contraste.
+                        </p>
+</div></h2>
+    </div>
+  </div>
+
+  <!-- SLIDE 6 -->
+  <div class="slide">
+    <div class="slide-content" style="background:linear-gradient(135deg,#663399,#4a2c6d); color:white; display:flex; justify-content:center; align-items:center; flex-direction:column;">
+      <h2 style="font-family:Montserrat;">
+	<title>Beneficios e Impacto Institucional</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&amp;family=Open+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(-30px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.8; }
+        }
+        .animate-fadeInUp { animation: fadeInUp 0.6s ease-out forwards; }
+        .animate-slideIn { animation: slideIn 0.5s ease-out forwards; }
+        .animate-pulse-slow { animation: pulse 2s ease-in-out infinite; }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+        }
+        .benefit-card {
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        .benefit-card:hover {
+            border-color: #663399;
+            transform: translateY(-3px);
+        }
+        .icon-box {
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+        .purple-gradient { background: linear-gradient(135deg, #663399 0%, #8B5CF6 100%); }
+        .blue-gradient { background: linear-gradient(135deg, #3B82F6 0%, #60A5FA 100%); }
+        .green-gradient { background: linear-gradient(135deg, #10B981 0%, #34D399 100%); }
+        .orange-gradient { background: linear-gradient(135deg, #F59E0B 0%, #FBBF24 100%); }
+        .pink-gradient { background: linear-gradient(135deg, #EC4899 0%, #F472B6 100%); }
+        .yellow-gradient { background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%); }
+        .red-gradient { background: linear-gradient(135deg, #EF4444 0%, #F87171 100%); }
+    </style>
+</head>
+<body style="margin: 0; padding: 0; overflow: hidden;">
+<div class="slide-container" style="position: relative; width: 1280px; height: 720px; overflow: hidden;">
+<div data-object="true" data-object-type="shape" style="position: absolute; left: 0; top: 0; width: 1280px; height: 720px; z-index: 1;">
+<div style="width: 100%; height: 100%; background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); position: relative;">
+<div style="position: absolute; top: 0; right: 0; width: 300px; height: 300px; background: rgba(102, 51, 153, 0.05); border-radius: 50%;"></div>
+<div style="position: absolute; bottom: 0; left: 0; width: 200px; height: 200px; background: rgba(255, 215, 0, 0.05); border-radius: 50%;"></div>
+</div>
+</div>
+<div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 10;">
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 40px; top: 20px; width: 1200px; height: 60px; display: flex; align-items: center; justify-content: space-between;">
+<div style="display: flex; align-items: center; gap: 15px;">
+<div style="width: 40px; height: 40px; background: linear-gradient(135deg, #663399, #8B5CF6); border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+<i class="fas fa-star" style="font-size: 18px; color: white;"></i>
+</div>
+<div>
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 20px; font-weight: 700; color: #1a1a2e;">BENEFICIOS INSTITUCIONALES</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 12px; color: #666;">Impacto y valor de la pañoleta oficial</p>
+</div>
+</div>
+<div style="text-align: right;">
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 14px; color: #333;">
+<span style="background: #FFD700; padding: 4px 12px; border-radius: 20px; font-weight: 600;">
+<i class="fas fa-calendar-alt" style="margin-right: 5px;"></i>
+                        11-12 Abril 2026
+                    </span>
+</p>
+</div>
+</div>
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 40px; top: 90px; width: 1200px; height: 72px;">
+<div style="background: rgba(255, 255, 255, 0.9); border-radius: 15px; padding: 15px 25px; border-left: 5px solid #663399; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 14px; color: #444; line-height: 1.4;">
+<span style="color: #663399; font-weight: 600;">Impacto institucional:</span> La implementación de la pañoleta de la Dirección de Comunicaciones aporta <strong style="color: #663399;">7 beneficios significativos</strong> en términos de organización, identidad y operatividad dentro de las actividades scouts.
+                </p>
+</div>
+</div>
+<div style="position: absolute; left: 40px; top: 170px; width: 1200px; height: 480px; display: flex; gap: 20px;">
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; width: 100%;">
+<div data-object="true" data-object-type="textbox" style="grid-column: span 1;">
+<div class="benefit-card" style="background: rgba(255, 255, 255, 0.95); border-radius: 15px; padding: 15px; height: 100%; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); border: 2px solid rgba(102, 51, 153, 0.2);">
+<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+<div class="icon-box purple-gradient">
+<i class="fas fa-eye" style="color: white; font-size: 20px;"></i>
+</div>
+<div>
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 700; color: #333;">Identificación</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 10px; color: #666;">Clara en campo</p>
+</div>
+</div>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 11px; color: #444; line-height: 1.3;">
+                            Reconocimiento inmediato del equipo de comunicaciones.
+                        </p>
+</div>
+</div>
+<div data-object="true" data-object-type="textbox" style="grid-column: span 1;">
+<div class="benefit-card" style="background: rgba(255, 255, 255, 0.95); border-radius: 15px; padding: 15px; height: 100%; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); border: 2px solid rgba(59, 130, 246, 0.2);">
+<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+<div class="icon-box blue-gradient">
+<i class="fas fa-cogs" style="color: white; font-size: 20px;"></i>
+</div>
+<div>
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 700; color: #333;">Operatividad</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 10px; color: #666;">Mejorada</p>
+</div>
+</div>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 11px; color: #444; line-height: 1.3;">
+                            Optimización de la dinámica de trabajo en eventos.
+                        </p>
+</div>
+</div>
+<div data-object="true" data-object-type="textbox" style="grid-column: span 1;">
+<div class="benefit-card" style="background: rgba(255, 255, 255, 0.95); border-radius: 15px; padding: 15px; height: 100%; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); border: 2px solid rgba(16, 185, 129, 0.2);">
+<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+<div class="icon-box green-gradient">
+<i class="fas fa-building" style="color: white; font-size: 20px;"></i>
+</div>
+<div>
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 700; color: #333;">Identidad</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 10px; color: #666;">Institucional</p>
+</div>
+</div>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 11px; color: #444; line-height: 1.3;">
+                            Consolidación de imagen visual coherente.
+                        </p>
+</div>
+</div>
+<div data-object="true" data-object-type="textbox" style="grid-column: span 1;">
+<div class="benefit-card" style="background: rgba(255, 255, 255, 0.95); border-radius: 15px; padding: 15px; height: 100%; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); border: 2px solid rgba(245, 158, 11, 0.2);">
+<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+<div class="icon-box orange-gradient">
+<i class="fas fa-sort-amount-up" style="color: white; font-size: 20px;"></i>
+</div>
+<div>
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 700; color: #333;">Orden</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 10px; color: #666;">Protocolario</p>
+</div>
+</div>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 11px; color: #444; line-height: 1.3;">
+                            Criterio claro de uso dentro del uniforme.
+                        </p>
+</div>
+</div>
+<div data-object="true" data-object-type="textbox" style="grid-column: span 1;">
+<div class="benefit-card" style="background: rgba(255, 255, 255, 0.95); border-radius: 15px; padding: 15px; height: 100%; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); border: 2px solid rgba(236, 72, 153, 0.2);">
+<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+<div class="icon-box pink-gradient">
+<i class="fas fa-camera" style="color: white; font-size: 20px;"></i>
+</div>
+<div>
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 700; color: #333;">Visibilidad</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 10px; color: #666;">En medios</p>
+</div>
+</div>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 11px; color: #444; line-height: 1.3;">
+                            Presencia en registros fotográficos y audiovisuales.
+                        </p>
+</div>
+</div>
+<div data-object="true" data-object-type="textbox" style="grid-column: span 1;">
+<div class="benefit-card" style="background: rgba(255, 255, 255, 0.95); border-radius: 15px; padding: 15px; height: 100%; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); border: 2px solid rgba(255, 215, 0, 0.2);">
+<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+<div class="icon-box yellow-gradient">
+<i class="fas fa-heart" style="color: white; font-size: 20px;"></i>
+</div>
+<div>
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 700; color: #333;">Pertinencia</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 10px; color: #666;">Sentido de</p>
+</div>
+</div>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 11px; color: #444; line-height: 1.3;">
+                            Unidad y compromiso del equipo.
+                        </p>
+</div>
+</div>
+<div data-object="true" data-object-type="textbox" style="grid-column: span 1;">
+<div class="benefit-card" style="background: rgba(255, 255, 255, 0.95); border-radius: 15px; padding: 15px; height: 100%; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); border: 2px solid rgba(239, 68, 68, 0.2);">
+<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+<div class="icon-box red-gradient">
+<i class="fas fa-rocket" style="color: white; font-size: 20px;"></i>
+</div>
+<div>
+<p style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 700; color: #333;">Proyección</p>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 10px; color: #666;">Profesional</p>
+</div>
+</div>
+<p style="margin: 0; font-family: 'Open Sans', sans-serif; font-size: 11px; color: #444; line-height: 1.3;">
+                            Imagen organizada en eventos nacionales.
+                        </p>
+</div>
+</div>
+</div>
+</div>
+<div data-object="true" data-object-type="textbox" style="position: absolute; left: 40px; top: 660px; width: 1200px; height: 50px;">
+<div style="background: rgba(102, 51, 153, 0.1); border-radius: 10px; padding: 12px 24px; display: flex; align-items: center; justify-content: space-between;">
+<div style="display: flex; align-items: center; gap: 20px;">
+<span style="font-family: 'Open Sans', sans-serif; font-size: 13px; color: #333;">
+<i class="fas fa-check-circle" style="margin-right: 8px; color: #663399;"></i>
+                        7 beneficios clave para fortalecer la identidad institucional
+                    </span>
+</div>
+<div style="display: flex; align-items: center; gap: 10px;">
+<span style="font-family: 'Montserrat', sans-serif; font-size: 12px; color: #333; font-weight: 600;">
+<i class="fas fa-arrow-right" style="margin-right: 5px; color: #663399;"></i>
+                        Ver próximos pasos
+                    </span>
+</div>
+</h2>
+      
+    </div>
+  </div>
+
+
+
+ <!-- SLIDE 7 -->
+  <div class="slide">
+	<div class="slide-container" style="position: relative; width: 1280px; height: 720px; overflow: hidden;">
+	<title>Próximos Pasos - Propuesta Pañoleta</title>
+	<style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            font-family: 'Open Sans', sans-serif;
+            background: #black;
+        }
+        .slide-container {
+            position: relative;
+            width: 1280px;
+            height: 720px;
+            overflow: hidden;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        }
+        .header-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 170px;
+            background: linear-gradient(135deg, #663399 0%, #4a2c6d 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+
+        }
+        .header-pattern {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 170px;
+            background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.05' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
+        }
+        .title-section {
+            position: absolute;
+            top: 28px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            z-index: 10;
+            width: 820px;
+        }
+        .title-badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.15);
+            border: 2px solid rgba(255,255,255,0.3);
+            border-radius: 50px;
+            padding: 8px 20px;
+            margin-bottom: 8px;
+        }
+        .title-badge span {
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        .main-title {
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 36px;
+            font-weight: 800;
+            margin: 0;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        .subtitle {
+            color: rgba(255,255,255,0.9);
+            font-size: 16px;
+            margin-top: 4px;
+        }
+        .content-container {
+            position: absolute;
+            top: 140px;
+            left: 50px;
+            right: 50px;
+            bottom: 92px;
+            display: flex;
+            gap: 30px;
+        }
+        .left-column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .step-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            border-left: 4px solid;
+        }
+        .step-card:nth-child(1) { border-left-color: #663399; }
+        .step-card:nth-child(2) { border-left-color: #E91E63; }
+        .step-card:nth-child(3) { border-left-color: #4CAF50; }
+        .step-card:nth-child(4) { border-left-color: #2196F3; }
+        .step-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 10px;
+        }
+        .step-number {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            flex: 0 0 32px;
+        }
+        .step-card:nth-child(1) .step-number { background: #663399; }
+        .step-card:nth-child(2) .step-number { background: #E91E63; }
+        .step-card:nth-child(3) .step-number { background: #4CAF50; }
+        .step-card:nth-child(4) .step-number { background: #2196F3; }
+        .step-title {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 15px;
+            color: #2c3e50;
+            margin: 0;
+        }
+        .step-description {
+            font-size: 13px;
+            color: #666;
+            margin-left: 47px;
+            line-height: 1.45;
+        }
+        .right-column {
+            width: 380px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .info-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+        .info-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        .info-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            background: linear-gradient(135deg, #FFD700 0%, #FFA000 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 18px;
+        }
+        .info-title {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            color: #2c3e50;
+            margin: 0;
+        }
+        .event-highlight {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 10px;
+            padding: 15px;
+            margin-top: 10px;
+            border: 2px solid #FFD700;
+        }
+        .event-date {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            color: #663399;
+            margin-bottom: 5px;
+        }
+        .event-text {
+            font-size: 13px;
+            color: #666;
+        }
+        .action-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .action-btn {
+            flex: 1;
+            padding: 10px 15px;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .action-btn-primary {
+            background: linear-gradient(135deg, #663399 0%, #4a2c6d 100%);
+            color: #fff;
+            border: none;
+        }
+        .action-btn-secondary {
+            background: #fff;
+            color: #663399;
+            border: 2px solid #663399;
+        }
+        .bottom-bar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 80px;
+            background: linear-gradient(135deg, #663399 0%, #4a2c6d 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 50px;
+        }
+        .bottom-content {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+        .bottom-text {
+            color: #fff;
+            font-size: 16px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+        }
+        .bottom-highlight {
+            background: rgba(255,255,255,0.2);
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-size: 14px;
+            color: #FFD700;
+            font-weight: 600;
+        }
+        .scout-logo {
+            position: absolute;
+            right: 38px;
+            bottom: 18px;
+            width: 56px;
+            height: 56px;
+            opacity: 0.3;
+        }
+    </style>
+<body>
+<div class="slide-container">
+<div class="header-bg"></div>
+<div class="header-pattern"></div>
+<div class="title-section">
+<div class="title-badge">
+<span>🎯 PRÓXIMOS PASOS</span>
+</div>
+<div class="main-title">
+Plan de Implementación 
+<span style="font-weight: 750; font-size: 18px;">
+– Validación y aprobación
+</span>
+</div>
+</div>
+<div class="content-container">
+<div class="left-column">
+<div class="step-card">
+<div class="step-header">
+<div class="step-number">1</div>
+<div class="step-title">Validar Diseño Propuesto</div>
+</div>
+<div class="step-description">
+                        Evaluar las dos líneas de diseño (Línea A: Identidad Institucional y Línea B: Identidad Nacional) para seleccionar la opción más adecuada.
+                    </div>
+</div>
+<div class="step-card">
+<div class="step-header">
+<div class="step-number">2</div>
+<div class="step-title">Aprobar Implementación</div>
+</div>
+<div class="step-description">
+                        Autorizar la implementación progresiva de la pañoleta en actividades de la Asociación Scout de El Salvador.
+                    </div>
+</div>
+<div class="step-card">
+<div class="step-header">
+<div class="step-number">3</div>
+<div class="step-title">Incorporar al Kit Institucional</div>
+</div>
+<div class="step-description">
+                        Integrar el elemento dentro del Kit Institucional de Comunicaciones y el Manual de Protocolo correspondiente.
+                    </div>
+</div>
+<div class="step-card">
+<div class="step-header">
+<div class="step-number">4</div>
+<div class="step-title">Definir Asignación y Control</div>
+</div>
+<div class="step-description">
+                        Establecer mecanismos de asignación, control y responsables operativos para el uso de la pañoleta.
+                    </div>
+</div>
+</div>
+<div class="right-column">
+<div class="info-card">
+<div class="info-header">
+<div class="info-icon">
+<i class="fas fa-calendar-check"></i>
+</div>
+<div class="info-title">Hito Importante</div>
+</div>
+<div class="event-highlight">
+<div class="event-date">📅 11-12 de abril de 2026</div>
+<div class="event-text">Campamento Técnico - Sesión de Validación</div>
+<div style="margin-top: 10px; font-size: 12px; color: #666;">
+<i class="fas fa-map-marker-alt"></i> Asociación Scout de El Salvador
+                        </div>
+</div>
+<div class="action-buttons">
+<div class="action-btn action-btn-primary">
+<i class="fas fa-check"></i> Aprobar
+                        </div>
+<div class="action-btn action-btn-secondary">
+<i class="fas fa-comment"></i> Feedback
+                        </div>
+</div>
+</div>
+<div class="info-card">
+<div class="info-header">
+<div class="info-icon" style="background: linear-gradient(135deg, #E91E63 0%, #C2185B 100%);">
+<i class="fas fa-users"></i>
+</div>
+<div class="info-title">Equipo Involucrado</div>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px;">
+<span style="background: #f0f0f0; padding: 5px 10px; border-radius: 15px; font-size: 12px;">Dirección de Comunicaciones</span>
+<span style="background: #f0f0f0; padding: 5px 10px; border-radius: 15px; font-size: 12px;">Staff Técnico</span>
+<span style="background: #f0f0f0; padding: 5px 10px; border-radius: 15px; font-size: 12px;">Voluntarios</span>
+</div>
+</div>
+</div>
+</div>
+<div class="bottom-bar">
+<div class="bottom-content">
+<div class="bottom-text">Construyamos una identidad</div>
+<div class="bottom-highlight">visible, unificada y funcional</div>
+</div>
+</div>
+<div class="scout-logo">
+<svg viewBox="0 0 288 288" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: 100%;">
+
+    <g fill="#FFD700">
+            
+            <path d="M44.348,113.062c-1.036,-2.199 -2.141,-4.366 -3.246,-6.6c-1.219,2.468 -2.425,4.871 -3.589,7.296c-0.242,0.506 -0.654,0.549 -1.083,0.622c-0.088,0.016 -0.21,-0.025 -0.313,0.009c-0.61,0.193 -1.259,0.231 -1.876,0.321c-0.858,0.124 -1.737,0.205 -2.597,0.338c-0.943,0.147 -1.885,0.284 -2.836,0.371c0.012,0.235 0.215,0.328 0.354,0.463c1.797,1.756 3.596,3.512 5.406,5.258c0.23,0.221 0.35,0.423 0.288,0.761c-0.291,1.586 -0.563,3.175 -0.837,4.763c-0.187,1.087 -0.365,2.174 -0.559,3.342c2.435,-1.282 4.791,-2.509 7.13,-3.764c0.385,-0.206 0.67,-0.191 1.047,0.011c2.131,1.143 4.277,2.26 6.421,3.381c0.154,0.08 0.305,0.254 0.5,0.134c0.205,-0.128 0.1,-0.34 0.07,-0.504c-0.409,-2.421 -0.825,-4.839 -1.257,-7.257c-0.065,-0.359 -0.012,-0.605 0.264,-0.87c1.79,-1.715 3.561,-3.446 5.331,-5.178c0.163,-0.16 0.399,-0.273 0.433,-0.541c-2.434,-0.344 -4.86,-0.757 -7.302,-1.001c-0.977,-0.098 -1.375,-0.567 -1.748,-1.356"/>
+            
+            <path d="M250.72,113.062c-1.036,-2.199 -2.141,-4.366 -3.246,-6.6c-1.219,2.468 -2.425,4.871 -3.589,7.296c-0.242,0.506 -0.654,0.549 -1.083,0.622c-0.088,0.016 -0.21,-0.025 -0.313,0.009c-0.61,0.193 -1.259,0.231 -1.876,0.321c-0.858,0.124 -1.737,0.205 -2.597,0.338c-0.943,0.147 -1.885,0.284 -2.836,0.371c0.012,0.235 0.215,0.328 0.354,0.463c1.797,1.756 3.596,3.512 5.406,5.258c0.23,0.221 0.35,0.423 0.288,0.761c-0.291,1.586 -0.563,3.175 -0.837,4.763c-0.187,1.087 -0.365,2.174 -0.559,3.342c2.435,-1.282 4.791,-2.509 7.13,-3.764c0.385,-0.206 0.67,-0.191 1.047,0.011c2.131,1.143 4.277,2.26 6.421,3.381c0.154,0.08 0.305,0.254 0.5,0.134c0.205,-0.128 0.1,-0.34 0.07,-0.504c-0.409,-2.421 -0.825,-4.839 -1.257,-7.257c-0.065,-0.359 -0.012,-0.605 0.264,-0.87c1.79,-1.715 3.561,-3.446 5.331,-5.178c0.163,-0.16 0.399,-0.273 0.433,-0.541c-2.434,-0.344 -4.86,-0.757 -7.302,-1.001c-0.977,-0.098 -1.375,-0.567 -1.748,-1.356"/>
+            
+            <path d="M173.325,99.545c-4.009,17.846 -21.259,27.799 -29.353,31.562c-8.055,-3.712 -25.219,-13.565 -29.293,-31.474c-4.012,-17.636 6.12,-40.225 29.314,-65.41c23.152,25.143 33.291,47.704 29.332,65.322m-22.372,-86.494l-6.961,-6.961l-6.963,6.961c-33.645,33.646 -47.625,64.246 -41.552,90.949c7.618,33.495 43.715,46.534 45.248,47.071l3.267,1.15l3.265,-1.15c1.534,-0.537 37.63,-13.576 45.249,-47.071c6.072,-26.703 -7.908,-57.302 -41.553,-90.949"/>
+            
+            <path d="M123.849,214.251l1.189,-3.851l35.131,0l0.232,1.063c4.012,11.594 9.747,22.483 17.051,31.978l0.714,1.026l-35.571,19.112l-33.591,-18.704l0.702,-1.099c7.413,-9.636 10.988,-20.291 14.144,-29.526m-30.946,28.366l-6.591,8.576l57.265,30.717l57.27,-30.715l-6.596,-8.622c-10.971,-14.267 -16.538,-30.33 -19.275,-41.052l-1.72,-7.039l-59.359,0l-1.72,7.039c-2.745,10.752 -8.319,26.848 -19.277,41.096"/>
+            
+            <path d="M270,81.548l0,-18.801c-51.545,8.008 -91.711,53.052 -92.164,106.519l-67.6,0c-0.454,-53.836 -40.691,-98.531 -92.236,-106.532l0,18.782c41.236,7.79 73.282,44.222 73.725,87.749l-15.306,0l0,19.473l13.801,0c-1.872,10.309 -7.717,31.465 -25.294,43.999l13.287,13.17c9.178,-7.247 15.544,-15.92 19.89,-24.065c7.058,-13.227 9.812,-26.232 10.843,-33.104l69.481,0c1.032,6.872 3.787,19.822 10.843,33.047c4.345,8.144 10.712,16.876 19.889,24.122l13.287,-13.11c-17.577,-12.536 -23.421,-33.75 -25.293,-44.058l14.43,0l0,-19.473l-15.223,0c0.444,-43.139 32.405,-79.877 73.641,-87.719"/>
+          
+          </g>
+        </svg>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<!-- NAV -->
+  <div class="nav prev">&#10094;</div>
+  <div class="nav next">&#10095;</div>
+
+
+<!-- DOTS -->
+  <div class="dots"></div>
+
+</div>
+
+<script>
+let slides = document.querySelectorAll(".slide");
+let index = 0;
+let dotsContainer = document.querySelector(".dots");
+
+/* DOTS */
+slides.forEach((_, i) => {
+  let dot = document.createElement("span");
+  dot.classList.add("dot");
+  if(i === 0) dot.classList.add("active");
+  dot.onclick = () => goToSlide(i);
+  dotsContainer.appendChild(dot);
+});
+
+let dots = document.querySelectorAll(".dot");
+
+function showSlide(i){
+  slides.forEach(s => s.classList.remove("active"));
+  dots.forEach(d => d.classList.remove("active"));
+
+  slides[i].classList.add("active");
+  dots[i].classList.add("active");
+}
+
+function nextSlide(){
+  index = (index + 1) % slides.length;
+  showSlide(index);
+}
+
+function prevSlide(){
+  index = (index - 1 + slides.length) % slides.length;
+  showSlide(index);
+}
+
+function goToSlide(i){
+  index = i;
+  showSlide(index);
+}
+
+document.querySelector(".next").onclick = nextSlide;
+document.querySelector(".prev").onclick = prevSlide;
+
+document.addEventListener("keydown", e => {
+  if(e.key === "ArrowRight") nextSlide();
+  if(e.key === "ArrowLeft") prevSlide();
+});
+</script>
+
+</body>
+</html>
